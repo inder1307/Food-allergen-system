@@ -4,7 +4,7 @@ import pyrebase
 import json
 
 app = Flask(__name__)
-CORS(app, resources={r'/*': {'origins': '*'}})
+CORS(app, origins="http://127.0.0.1:3000", resources={r'/*': {'origins': '*'}})
 
 @app.route('/')
 def index():
