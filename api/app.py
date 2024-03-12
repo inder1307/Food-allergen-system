@@ -50,4 +50,7 @@ def ingredients():
     menu = db.child("menu").get().val()
     ingredients = menu[food_name][0]
     return jsonify(success=True, message=ingredients), 200 
+
+if __name__ == "__main__":
+    app.run(debug=True, port=3000)
     
