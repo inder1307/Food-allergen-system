@@ -27,7 +27,7 @@ def food_results():
 @app.route('/search', methods=['POST'])
 def food_info():
     food_name = request.json['dish']
-    allergy = request.json['allergen']
+    allergy = request.json['allergen'].lower()
     config_file = "config.json"
     with open(config_file) as configfile:
         config = json.load(configfile)
