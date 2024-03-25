@@ -8,21 +8,44 @@
     <link rel="stylesheet" href={{ url_for("static", filename='css/style.css' ) }}>
 </head>
 <body>
-    <div class="container">
+
+
+
+
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-4 justify-content-left">
                 <img src="static/assets/Kelseys_logo.png" alt="logo" class="img-fluid logo">
             </div>
-            <div class="col-md-8 my-auto mx-auto text-center">
-                <h1 class="heading">Food Allergen</h1>
+            <div class="col-md-8 my-auto mx-auto text-start">
+                <h1 class="heading ms-auto">Food Allergen</h1>
                 <h1 class="heading">Management System</h1>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Search Boxes -->
+
+    <header>
+        <div class="navbar">
+            <img id="logo" src="../static/assets/Kelseys_logo.png" alt="Logo" class="logo">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Burgers</a></li>
+                    <li><a href="#">Pastas</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+        </div>
+
+    </header>
+
     <div class="container">
+        <div class="row d-flex justify-content-center text-center" style="margin-top: 40px;">
+            <h1>Food Allergen</h1>
+            <h1>Management System</h1>
+        </div>
         <div class="row justify-content-center">
-            <div class="col-md-6 search-box search-container justify-content-center" style="margin-top: 200px;">
+            <div class="col-md-6 search-box search-container justify-content-center" style="margin-top: 100px;">
                 <input class="w-100 form-control" type="text" id="searchInput" onkeyup="showDropdown()" placeholder="Search For Dish..">
                 <div class="dropdown-menu mb-3" id="dish">
                 </div>
