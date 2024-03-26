@@ -182,7 +182,7 @@ h1:hover {
 
     /* Adjust logo size for smaller screens */
     .logo {
-        height: 30px; /* Reduce height of the logo */
+        height: 20px; /* Reduce height of the logo */
     }
 
     /* Adjust font size for navigation links for smaller screens */
