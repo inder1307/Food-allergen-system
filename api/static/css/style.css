@@ -68,13 +68,13 @@
 }
 
 body {
-    background-image: url("../assets/background.jpeg");
+    background-image: url("../assets/black_food.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
-    color: #DF2315; /* Dark text color */
+    color: #f8f8f8; /* Dark text color */
     font-family: 'Arial', sans-serif; /* Font family */
     font-weight: bold; /* Bold text */
     font-size: 68px; /* Large font size */
@@ -116,7 +116,7 @@ h1:hover {
     border-radius: 7px;
     border: 1px solid #000;
     font-size: 1.5em;
-    background-color: #95c2ed; /* White background color for the search box */
+    background-color: #cad2c5; /* White background color for the search box */
 }
 
 /* Style the dropdown items */
@@ -142,7 +142,7 @@ h1:hover {
     top: 0;
     right: 0;
     padding: 5px 10px;
-    background-color: #BDE0FE;
+    background-color: #73cac9;
     color: white;
     border: none;
     border-radius: 5px;
@@ -173,3 +173,30 @@ h1:hover {
     font-size: 16px;
 }
 
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* Adjust navbar padding for smaller screens */
+    .navbar {
+        padding: 10px; /* Reduce padding */
+    }
+
+    /* Adjust logo size for smaller screens */
+    .logo {
+        height: 30px; /* Reduce height of the logo */
+    }
+
+    /* Adjust font size for navigation links for smaller screens */
+    .nav-links a {
+        font-size: 18px; /* Reduce font size */
+    }
+
+    /* Adjust margin-right for navigation links items for smaller screens */
+    .nav-links li {
+        margin-right: 10px; /* Reduce margin */
+    }
+
+    /* Adjust font size for h1 heading for smaller screens */
+    h1 {
+        font-size: 36px; /* Reduce font size */
+    }
+}
