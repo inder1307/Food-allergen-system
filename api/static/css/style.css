@@ -197,6 +197,8 @@ h1:hover {
 
     /* Adjust font size for h1 heading for smaller screens */
     h1 {
-        font-size: 36px; /* Reduce font size */
+        font-size: 6vw; /* Increase font size for smaller screens */
     }
+
+
 }
