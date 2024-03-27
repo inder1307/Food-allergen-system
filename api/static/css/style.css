@@ -18,8 +18,9 @@
 
 
 /* Style for the logo */
-.logo {
+#logo {
     height: 40px; /* Set the height of the logo */
+    background-color: black;
 }
 
 /* Style for the navigation links */
