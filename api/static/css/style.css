@@ -15,7 +15,7 @@
 }
 
 #submit-button{
-    background-color: #ffcad4;
+    background-color: #0077b6;
     font-size: 18px;
 }
 
@@ -23,7 +23,7 @@
     background-image: url("../assets/bougie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 82vh;
+    min-height: 100vh; 
 }
 
 
@@ -124,7 +124,7 @@ h1:hover {
     border-radius: 7px;
     border: 1px solid #000;
     font-size: 1.5em;
-    background-color: #cad2c5; /* White background color for the search box */
+    background-color: #fefae0; /* White background color for the search box */
 }
 
 /* Style the dropdown items */
@@ -166,6 +166,10 @@ h1:hover {
     font-family: 'Roboto', sans-serif;
     transition: background-color 0.3s, box-shadow 0.3s;
         
+}
+
+#ingredients-button{
+    background-color: #0077b6;
 }
 
 #allergen {
